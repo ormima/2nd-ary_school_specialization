@@ -48,8 +48,7 @@ section{
 }
 .chillone:hover, .snowy:hover, .greentree:hover{
     filter: invert(100%);
-    filter: saturate(150%);
-    
+    border: 3px dotted silver;
 }
 .chillone, .snowy, .greentree{
     transform: scale(1.2);
