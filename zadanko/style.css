@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header, footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: #fff;
+    color: #000;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+}
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; 
+}
+.side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 100%;
+    height: 50%;
+}
+.s1{
+    background-color: #f00;
+    color: #00f;
+}
+.s2{
+    background-color: #0f0;
+    color: #f00;
+}
+.s3{
+    background-color: #00f;
+    color: #f00;
+}
+.s4{
+    background-color: #ff0;
+    color: #0ff;
+}
+.s5{
+    background-color: #f0f;
+    color: #ff0;
+}
+.s6{
+    background-color: #0ff;
+    color: #f0f;
+}
