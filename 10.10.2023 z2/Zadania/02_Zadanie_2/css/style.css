@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Tangerine', cursive;
+  background-color: black;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: #FEF5E5;
+  padding: 20px;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.card__border {
+  border: 1px solid gold;
+  padding: 3px;
+}
+
+.card > .card__border {
+  position: relative;
+}
+
+.card__heading,
+.card__description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card__heading {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.card__description {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.dot{
+  background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+}
+.dot--top-left{
+  top: -15px;
+  left: -15px;
+}
+.dot--top-right{
+  top: 150px;
+  left: -15px;
+}
+.dot--bottom-left{
+  top: -15px;
+  left: 483px;
+}
+.dot--bottom-right{
+  top: 150px;
+  left: 483px;
+}

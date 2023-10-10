@@ -1,0 +1,31 @@
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url(../images/background.jpg); /* Designed by Freepik */
+  background-size: cover;
+}
+button{
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 35px;
+}
+button:first-child{
+  color: white;
+  background-color: tomato;
+  margin-right: 15px;
+}
+button:last-child{
+  color: tomato;
+  background-color: white;
+  margin-left: 15px;
+}
+button:hover{
+  cursor: pointer;
+}

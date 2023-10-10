@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+div{
+  background-image: url(../car-background.jpg);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div::before{
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  background-color: #111;
+  opacity: 0.5;
+}
+h1{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 60px;
+  font-weight: 600;
+}
+span{
+  color: orangered;
+}

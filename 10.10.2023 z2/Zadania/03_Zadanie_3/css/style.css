@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: darkred;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+img{
+    border: tomato solid 5px;
+    height: 700px;
+    width: 700px;
+}
+div::before{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: tomato;
+    position: absolute;
+}
+div::after{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: tomato;
+    position: absolute;
+    left: 650px;
+    top: 650px;
+}
