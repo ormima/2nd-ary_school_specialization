@@ -1,0 +1,13 @@
+body{
+    background-color: purple;
+}
+@media (max-width: 400px){
+    body{
+        background-color: green;
+    }
+}
+@media (min-width: 801px){
+    body{
+        background-color: orange;
+    }
+}
