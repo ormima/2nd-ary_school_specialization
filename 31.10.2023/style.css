@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 320vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    height: 60px;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0 0 15px dimgray;
+    justify-content: center;
+}
+.top{
+    width: 1352px;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid 1px black; */
+}
+nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 1px black; */
+}
+.logotypebox{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.logotype{
+    font-size: 1.8rem;
+    color: #00d4ff;
+    font-weight: lighter;
+}
+.nav{
+    width: 120px;
+    height: 60px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 1px black; */
+}
+.nav:hover{
+    font-weight: bolder;
+    border-bottom: 3px #0870dd solid;
+}
+.logotypebox:hover{
+    border-bottom: 3px #0870dd solid;
+}
+.start{
+    width: 100%;
+    height: 100%;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+}
+.titlebox, .subtitlebox, .btnstart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 2.8rem;
+}
+.buttonboxstart{
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #0870dd;
+    margin-bottom: 5%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.buttonboxstart:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px #0f263f;
+}
+img{
+    width: 100%;
+}
+.stats{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px red solid;
+}
+.balls{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ballimg{
+    height: 5vh;
+}
+.ball{
+    width: 33%;
+}
