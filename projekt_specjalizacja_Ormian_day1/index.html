@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calorie calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./import/bmi.png">
+</head>
+<body>
+    <div class="container">
+        <section class="ingredients">
+            <div class="ingredients_category category_fruitsvegetables" id="category">
+                <header>
+                    <img src="./import/fruitsvegetables.png" alt="">
+                    <h1>fruits and vegetables</h1>
+                    <button>expand</button>
+                </header>
+                <div class="ingredients_category_items items_fruitsvegetables">
+                    <ul>
+                        <li>boiled potato <sub>(100g)</sub> <b id="item">88</b>cal</li>
+                        <li>baked potato <sub>(100g)</sub> <b id="item">122</b>cal</li>
+                        <li>french fries <sub>(100g)</sub> <b id="item">75</b>cal</li>
+                        <li>fried french fries <sub>(100g)</sub> <b id="item">129</b>cal</li>
+                        <li>parsley <sub>(100g)</sub> <b id="item">36</b>cal</li>
+                        <li>pure <sub>(100g)</sub> <b id="item">93</b>cal</li>
+                        <li>beetroot <sub>(100g)</sub> <b id="item">46</b>cal</li>
+                        <li>broccoli <sub>(100g)</sub> <b id="item">34</b>cal</li>
+                        <li>cabbage <sub>(100g)</sub> <b id="item">30</b>cal</li>
+                        <li>carrot <sub>(100g)</sub> <b id="item">39</b>cal</li>
+                        <li>corn <sub>(100g)</sub> <b id="item">45</b>cal</li>
+                        <li>cucumber <sub>(100g)</sub> <b id="item">14</b>cal</li>
+                        <li>eggplant <sub>(100g)</sub> <b id="item">20</b>cal</li>
+                        <li>garlic <sub>(100g)</sub> <b id="item">143</b>cal</li>
+                        <li>green beans <sub>(100g)</sub> <b id="item">39</b>cal</li>
+                        <li>green onion <sub>(100g)</sub> <b id="item">32</b>cal</li>
+                        <li>green peas <sub>(100g)</sub> <b id="item">91</b>cal</li>
+                        <li>jalapeno <sub>(100g)</sub> <b id="item">29</b>cal</li>
+                        <li>kimchi <sub>(100g)</sub> <b id="item">15</b>cal</li>
+                        <li>onion <sub>(100g)</sub> <b id="item">30</b>cal</li>
+                        <li>pumpkin <sub>(100g)</sub> <b id="item">29</b>cal</li>
+                        <li>red lettuce <sub>(100g)</sub> <b id="item">31</b>cal</li>
+                        <li>red onion <sub>(100g)</sub> <b id="item">30</b>cal</li>
+                        <li>roma tomato <sub>(100g)</sub> <b id="item">20</b>cal</li>
+                        <li>sour pickle <sub>(100g)</sub> <b id="item">13</b>cal</li>
+                        <li>spinach <sub>(100g)</sub> <b id="item">22</b>cal</li>
+                        <li>mushrooms <sub>(100g)</sub> <b id="item">25</b>cal</li>
+                        <li>ananas <sub>(100g)</sub> <b id="item">58</b>cal</li>
+                        <li>apple <sub>(100g)</sub> <b id="item">64</b>cal</li>
+                        <li>blackolive <sub>(100g)</sub> <b id="item">393</b>cal</li>
+                        <li>blackberry <sub>(100g)</sub> <b id="item">43</b>cal</li>
+                        <li>blueberries <sub>(100g)</sub> <b id="item">46</b>cal</li>
+                        <li>cherries <sub>(100g)</sub> <b id="item">64</b>cal</li>
+                        <li>clementine <sub>(100g)</sub> <b id="item">49</b>cal</li>
+                        <li>coconut <sub>(100g)</sub> <b id="item">384</b>cal</li>
+                        <li>cranberries <sub>(100g)</sub> <b id="item">76</b>cal</li>
+                        <li>dried figs <sub>(100g)</sub> <b id="item">270</b>cal</li>
+                        <li>figs <sub>(100g)</sub> <b id="item">66</b>cal</li>
+                        <li>grape <sub>(100g)</sub> <b id="item">72</b>cal</li>
+                        <li>green olives <sub>(100g)</sub> <b id="item">141</b>cal</li>
+                        <li>honeyberry <sub>(100g)</sub> <b id="item">53</b>cal</li>
+                        <li>kiwi <sub>(100g)</sub> <b id="item">61</b>cal</li>
+                        <li>lemon <sub>(100g)</sub> <b id="item">38</b>cal</li>
+                        <li>lime <sub>(100g)</sub> <b id="item">48</b>cal</li>
+                        <li>mandarine orange <sub>(100g)</sub> <b id="item">53</b>cal</li>
+                        <li>mango <sub>(100g)</sub> <b id="item">61</b>cal</li>
+                        <li>maracuya <sub>(100g)</sub> <b id="item">66</b>cal</li>
+                        <li>melon <sub>(100g)</sub> <b id="item">38</b>cal</li>
+                        <li>orange <sub>(100g)</sub> <b id="item">47</b>cal</li>
+                        <li>papaya <sub>(100g)</sub> <b id="item">35</b>cal</li>
+                        <li>peach <sub>(100g)</sub> <b id="item">44</b>cal</li>
+                        <li>pear <sub>(100g)</sub> <b id="item">57</b>cal</li>
+                        <li>pineapple <sub>(100g)</sub> <b id="item">58</b>cal</li>
+                        <li>pomegrenade <sub>(100g)</sub> <b id="item">79</b>cal</li>
+                        <li>pomelo <sub>(100g)</sub> <b id="item">47</b>cal</li>
+                        <li>rasberries <sub>(100g)</sub> <b id="item">43</b>cal</li>
+                        <li>watermelon <sub>(100g)</sub> <b id="item">38</b>cal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ingredients_category category_dairy" id="category">
+                <header>
+                    <img src="./import/dairy.png" alt="">
+                    <h1>dairy</h1>
+                    <buttonexpand></button>
+                </header>
+                <div class="ingredients_category_items items_dairy">
+                    <ul>
+                        <li>almond milk <sub>(100g)</sub> <b id="item">22</b>cal</li>
+                        <li>cherry yoghurt <sub>(100g)</sub> <b id="item">93</b>cal</li>
+                        <li>chocolate milk <sub>(100g)</sub> <b id="item">132</b>cal</li>
+                        <li>coconut milk <sub>(100g)</sub> <b id="item">10</b>cal</li>
+                        <li>cream <sub>(100g)</sub> <b id="item">308</b>cal</li>
+                        <li>heavy cream <sub>(100g)</sub> <b id="item">165</b>cal</li>
+                        <li>human milk <sub>(100g)</sub> <b id="item">304</b>cal</li>
+                        <li>kefir <sub>(100g)</sub> <b id="item">65</b>cal</li>
+                        <li>lactose-free milk <sub>(100g)</sub> <b id="item">39</b>cal</li>
+                        <li>milk <sub>(100g)</sub> <b id="item">65</b>cal</li>
+                        <li>peach yoghurt <sub>(100g)</sub> <b id="item">118</b>cal</li>
+                        <li>powdered milk <sub>(100g)</sub> <b id="item">482</b>cal</li>
+                        <li>rice milk <sub>(100g)</sub> <b id="item">53</b>cal</li>
+                        <li>sheep milk <sub>(100g)</sub> <b id="item">94</b>cal</li>
+                        <li>soy milk <sub>(100g)</sub> <b id="item">36</b>cal</li>
+                        <li>actimel <sub>(100g)</sub> <b id="item">73</b>cal</li>
+                        <li>activia <sub>(100g)</sub> <b id="item">74</b>cal</li>
+                        <li>blueberry yoghurt <sub>(100g)</sub> <b id="item">67</b>cal</li>
+                        <li>greek yoghurt <sub>(100g)</sub> <b id="item">71</b>cal</li>
+                        <li>natural yoghurt <sub>(100g)</sub> <b id="item">69</b>cal</li>
+                        <li>skyr yoghurt <sub>(100g)</sub> <b id="item">318</b>cal</li>
+                        <li>sour cream <sub>(100g)</sub> <b id="item">196</b>cal</li>
+                        <li>strawberry yoghurt <sub>(100g)</sub> <b id="item">45</b>cal</li>
+                        <li>vanilla yoghurt <sub>(100g)</sub> <b id="item">102</b>cal</li>
+                        <li>blue cheese <sub>(100g)</sub> <b id="item">362</b>cal</li>
+                        <li>brie <sub>(100g)</sub> <b id="item">367</b>cal</li>
+                        <li>camembert <sub>(100g)</sub> <b id="item">286</b>cal</li>
+                        <li>cheddar <sub>(100g)</sub> <b id="item">397</b>cal</li>
+                        <li>fondue cheese <sub>(100g)</sub> <b id="item">274</b>cal</li>
+                        <li>cottage cheese <sub>(100g)</sub> <b id="item">104</b>cal</li>
+                        <li>edam cheese <sub>(100g)</sub> <b id="item">357</b>cal</li>
+                        <li>emmentaler <sub>(100g)</sub> <b id="item">381</b>cal</li>
+                        <li>goat cheese <sub>(100g)</sub> <b id="item">347</b>cal</li>
+                        <li>gorgonzola <sub>(100g)</sub> <b id="item">360</b>cal</li>
+                        <li>gouda cheese <sub>(100g)</sub> <b id="item">368</b>cal</li>
+                        <li>grana padano <sub>(100g)</sub> <b id="item">398</b>cal</li>
+                        <li>gruyere cheese <sub>(100g)</sub> <b id="item">413</b>cal</li>
+                        <li>halloumi <sub>(100g)</sub> <b id="item">381</b>cal</li>
+                        <li>maasdamer <sub>(100g)</sub> <b id="item">349</b>cal</li>
+                        <li>mexican cheese <sub>(100g)</sub> <b id="item">900</b>cal</li>
+                        <li>mozzarella <sub>(100g)</sub> <b id="item">265</b>cal</li>
+                        <li>parmesan <sub>(100g)</sub> <b id="item">399</b>cal</li>
+                        <li>pecorino <sub>(100g)</sub> <b id="item">423</b>cal</li>
+                        <li>sheep cheese <sub>(100g)</sub> <b id="item">287</b>cal</li>
+                        <li>white cheese <sub>(100g)</sub> <b id="item">297</b>cal</li>
+                        <li>philadelphia cream cheese <sub>(100g)</sub> <b id="item">228</b>cal</li>
+                        <li>ricotta cheese <sub>(100g)</sub> <b id="item">176</b>cal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ingredients_category category_meat" id="category">
+                <header>
+                    <img src="./import/meat.png" alt="">
+                    <h1>meat</h1>
+                    <button>expand</button>
+                </header>
+                <div class="ingredients_category_items items_meat">
+                    <ul>
+                        <li>ricotta cheese <sub>(100g)</sub> <b id="item">176</b>cal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ingredients_category category_cereal" id="category">
+                <header>
+                    <img src="./import/cereal.png" alt="">
+                    <h1>cereal</h1>
+                    <button>expand</button>
+                </header>
+                <div class="ingredients_category_items items_cereal">
+                    
+                </div>
+            </div>
+            <div class="ingredients_category category_seafood" id="category">
+                <header>
+                    <img src="./import/seafood.png" alt="">
+                    <h1>seafood</h1>
+                    <button>expand</button>
+                </header>
+                <div class="ingredients_category_items items_seafood">
+
+                </div>
+            </div>
+        </section>
+        <section class="recommended">
+
+        </section>
+    </div>
+
+    <!-- 
+        sources:
+        https://cssgradient.io/
+        https://www.rapidtables.com/convert/color/hex-to-rgb.html
+        https://hype4.academy/tools/glassmorphism-generator
+        https://translate.google.pl/?hl=pl
+        https://www.flaticon.com/
+        https://www.calories.info/
+        https://www.calories.info/calorie-intake-calculator
+     -->
+
+    <!-- JS script -->
+    <script src="./script.js"></script>
+</body>
+</html>
