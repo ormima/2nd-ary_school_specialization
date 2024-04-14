@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Maciej Ormian" />
+    <title>calorie calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./import/bmi.png" />
+    <!-- site is adapted for computers only !!! -->
+  </head>
+  <body>
+    <div class="container">
+      <section class="ingredients">
+        <h1>Calulate how many calories are in your dish!</h1>
+        <div class="ingredients_box">
+          <div
+            class="ingredients_category category_fruitsvegetables"
+            id="category">
+            <header>
+              <img src="./import/fruitsvegetables.png" alt="" />
+              <h1>fruits and vegetables</h1>
+              <button id="ingredients_button">expand</button>
+            </header>
+            <div class="ingredients_category_items items_fruitsvegetables">
+                  <ul>
+                    <li>boiled potato <sub>(100g)</sub> <b id="item">88</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>baked potato <sub>(100g)</sub> <b id="item">122</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>french fries <sub>(100g)</sub> <b id="item">75</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>fried french fries <sub>(100g)</sub> <b id="item">129</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>parsley <sub>(100g)</sub> <b id="item">36</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pure <sub>(100g)</sub> <b id="item">93</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>beetroot <sub>(100g)</sub> <b id="item">46</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>broccoli <sub>(100g)</sub> <b id="item">34</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>cabbage <sub>(100g)</sub> <b id="item">30</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>carrot <sub>(100g)</sub> <b id="item">39</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>corn <sub>(100g)</sub> <b id="item">45</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>cucumber <sub>(100g)</sub> <b id="item">14</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>eggplant <sub>(100g)</sub> <b id="item">20</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>garlic <sub>(100g)</sub> <b id="item">143</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>green beans <sub>(100g)</sub> <b id="item">39</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>green onion <sub>(100g)</sub> <b id="item">32</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>green peas <sub>(100g)</sub> <b id="item">91</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>jalapeno <sub>(100g)</sub> <b id="item">29</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>kimchi <sub>(100g)</sub> <b id="item">15</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>onion <sub>(100g)</sub> <b id="item">30</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pumpkin <sub>(100g)</sub> <b id="item">29</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>red lettuce <sub>(100g)</sub> <b id="item">31</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>red onion <sub>(100g)</sub> <b id="item">30</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>roma tomato <sub>(100g)</sub> <b id="item">20</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>sour pickle <sub>(100g)</sub> <b id="item">13</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>spinach <sub>(100g)</sub> <b id="item">22</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>mushrooms <sub>(100g)</sub> <b id="item">25</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>ananas <sub>(100g)</sub> <b id="item">58</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>apple <sub>(100g)</sub> <b id="item">64</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>blackolive <sub>(100g)</sub> <b id="item">393</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>blackberry <sub>(100g)</sub> <b id="item">43</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>blueberries <sub>(100g)</sub> <b id="item">46</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>cherries <sub>(100g)</sub> <b id="item">64</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>clementine <sub>(100g)</sub> <b id="item">49</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>coconut <sub>(100g)</sub> <b id="item">384</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>cranberries <sub>(100g)</sub> <b id="item">76</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>dried figs <sub>(100g)</sub> <b id="item">270</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>figs <sub>(100g)</sub> <b id="item">66</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>grape <sub>(100g)</sub> <b id="item">72</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>green olives <sub>(100g)</sub> <b id="item">141</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>honeyberry <sub>(100g)</sub> <b id="item">53</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>kiwi <sub>(100g)</sub> <b id="item">61</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>lemon <sub>(100g)</sub> <b id="item">38</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>lime <sub>(100g)</sub> <b id="item">48</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>mandarine orange <sub>(100g)</sub> <b id="item">53</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>mango <sub>(100g)</sub> <b id="item">61</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>maracuya <sub>(100g)</sub> <b id="item">66</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>melon <sub>(100g)</sub> <b id="item">38</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>orange <sub>(100g)</sub> <b id="item">47</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>papaya <sub>(100g)</sub> <b id="item">35</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>peach <sub>(100g)</sub> <b id="item">44</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pear <sub>(100g)</sub> <b id="item">57</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pineapple <sub>(100g)</sub> <b id="item">58</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pomegrenade <sub>(100g)</sub> <b id="item">79</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>pomelo <sub>(100g)</sub> <b id="item">47</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>rasberries <sub>(100g)</sub> <b id="item">43</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                    <li>watermelon <sub>(100g)</sub> <b id="item">38</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                  </ul>
+            </div>
+          </div>
+          <div class="ingredients_category category_dairy" id="category">
+            <header>
+              <img src="./import/dairy.png" alt="" />
+              <h1>dairy</h1>
+              <button id="ingredients_button">expand</button>
+            </header>
+            <div class="ingredients_category_items items_dairy">
+              <ul>
+                <li>almond milk <sub>(100g)</sub> <b id="item">22</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cherry yoghurt <sub>(100g)</sub> <b id="item">93</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chocolate milk <sub>(100g)</sub> <b id="item">132</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>coconut milk <sub>(100g)</sub> <b id="item">10</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cream <sub>(100g)</sub> <b id="item">308</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>heavy cream <sub>(100g)</sub> <b id="item">165</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>human milk <sub>(100g)</sub> <b id="item">304</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>kefir <sub>(100g)</sub> <b id="item">65</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>lactose-free milk <sub>(100g)</sub> <b id="item">39</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>milk <sub>(100g)</sub> <b id="item">65</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>peach yoghurt <sub>(100g)</sub> <b id="item">118</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>powdered milk <sub>(100g)</sub> <b id="item">482</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>rice milk <sub>(100g)</sub> <b id="item">53</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sheep milk <sub>(100g)</sub> <b id="item">94</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>soy milk <sub>(100g)</sub> <b id="item">36</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>actimel <sub>(100g)</sub> <b id="item">73</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>activia <sub>(100g)</sub> <b id="item">74</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  blueberry yoghurt <sub>(100g)</sub> <b id="item">67</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>greek yoghurt <sub>(100g)</sub> <b id="item">71</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>natural yoghurt <sub>(100g)</sub> <b id="item">69</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>skyr yoghurt <sub>(100g)</sub> <b id="item">318</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sour cream <sub>(100g)</sub> <b id="item">196</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  strawberry yoghurt <sub>(100g)</sub> <b id="item">45</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>vanilla yoghurt <sub>(100g)</sub> <b id="item">102</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>blue cheese <sub>(100g)</sub> <b id="item">362</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>brie <sub>(100g)</sub> <b id="item">367</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>camembert <sub>(100g)</sub> <b id="item">286</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cheddar <sub>(100g)</sub> <b id="item">397</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>fondue cheese <sub>(100g)</sub> <b id="item">274</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cottage cheese <sub>(100g)</sub> <b id="item">104</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>edam cheese <sub>(100g)</sub> <b id="item">357</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>emmentaler <sub>(100g)</sub> <b id="item">381</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>goat cheese <sub>(100g)</sub> <b id="item">347</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>gorgonzola <sub>(100g)</sub> <b id="item">360</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>gouda cheese <sub>(100g)</sub> <b id="item">368</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>grana padano <sub>(100g)</sub> <b id="item">398</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>gruyere cheese <sub>(100g)</sub> <b id="item">413</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>halloumi <sub>(100g)</sub> <b id="item">381</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>maasdamer <sub>(100g)</sub> <b id="item">349</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>mexican cheese <sub>(100g)</sub> <b id="item">900</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>mozzarella <sub>(100g)</sub> <b id="item">265</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>parmesan <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pecorino <sub>(100g)</sub> <b id="item">423</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sheep cheese <sub>(100g)</sub> <b id="item">287</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>white cheese <sub>(100g)</sub> <b id="item">297</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  philadelphia cream cheese <sub>(100g)</sub>
+                  <b id="item">228</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>ricotta cheese <sub>(100g)</sub> <b id="item">176</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ingredients_category category_meat" id="category">
+            <header>
+              <img src="./import/meat.png" alt="" />
+              <h1>meat</h1>
+              <button id="ingredients_button">expand</button>
+            </header>
+            <div class="ingredients_category_items items_meat">
+              <ul>
+                <li>beef <sub>(100g)</sub> <b id="item">156</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chicken breast <sub>(100g)</sub> <b id="item">118</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  chicken leg, cooked <sub>(100g)</sub> <b id="item">218</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  chicken leg, fried <sub>(100g)</sub> <b id="item">225</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chicken strips <sub>(100g)</sub> <b id="item">271</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>duck <sub>(100g)</sub> <b id="item">227</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>goose <sub>(100g)</sub> <b id="item">342</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>hot dog sausage <sub>(100g)</sub> <b id="item">193</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>hot wings <sub>(100g)</sub> <b id="item">243</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>liver <sub>(100g)</sub> <b id="item">133</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork loin <sub>(100g)</sub> <b id="item">106</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>rabbit <sub>(100g)</sub> <b id="item">152</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>spare ribs <sub>(100g)</sub> <b id="item">320</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>spare ribs <sub>(100g)</sub> <b id="item">104</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>steak sandwich <sub>(100g)</sub> <b id="item">104</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>vegan meat <sub>(100g)</sub> <b id="item">255</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>wild boar <sub>(100g)</sub> <b id="item">162</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  beef bottom round steak <sub>(100g)</sub>
+                  <b id="item">594</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  beef flank steak <sub>(100g)</sub> <b id="item">114</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>beef ribs <sub>(100g)</sub> <b id="item">167</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  beef round steak <sub>(100g)</sub> <b id="item">206</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>beef salami <sub>(100g)</sub> <b id="item">380</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>filet mignon <sub>(100g)</sub> <b id="item">98</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  new york strip steak <sub>(100g)</sub> <b id="item">39</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>roast beef <sub>(100g)</sub> <b id="item">130</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>round steak <sub>(100g)</sub> <b id="item">161</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>schnitzel <sub>(100g)</sub> <b id="item">121</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>vegan steak <sub>(100g)</sub> <b id="item">268</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>bacon <sub>(100g)</sub> <b id="item">270</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>baked ham <sub>(100g)</sub> <b id="item">135</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  grilled pork chop <sub>(100g)</sub> <b id="item">150</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork <sub>(100g)</sub> <b id="item">279</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork bacon <sub>(100g)</sub> <b id="item">810</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork chop <sub>(100g)</sub> <b id="item">133</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork cutlet <sub>(100g)</sub> <b id="item">106</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork leg <sub>(100g)</sub> <b id="item">179</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork liver <sub>(100g)</sub> <b id="item">129</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  pork loin, cooked <sub>(100g)</sub> <b id="item">143</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork ribs <sub>(100g)</sub> <b id="item">189</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pork sausage <sub>(100g)</sub> <b id="item">293</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>baked chicken <sub>(100g)</sub> <b id="item">117</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>boiled chicken <sub>(100g)</sub> <b id="item">118</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chorizo <sub>(100g)</sub> <b id="item">344</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>frankfurter <sub>(100g)</sub> <b id="item">249</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>ham <sub>(100g)</sub> <b id="item">87</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>prosciutto <sub>(100g)</sub> <b id="item">87</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>weisswurst <sub>(100g)</sub> <b id="item">301</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ingredients_category category_cereal" id="category">
+            <header>
+              <img src="./import/cereal.png" alt="" />
+              <h1>cereal</h1>
+              <button id="ingredients_button">expand</button>
+            </header>
+            <div class="ingredients_category_items items_cereal">
+              <ul>
+                <li>basmati rice <sub>(100g)</sub> <b id="item">352</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>brown rice <sub>(100g)</sub> <b id="item">367</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>fried rice <sub>(100g)</sub> <b id="item">125</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>jasmine rice <sub>(100g)</sub> <b id="item">356</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  white rice, cooked <sub>(100g)</sub> <b id="item">516</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  white rice, steamed <sub>(100g)</sub> <b id="item">30</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>bagel <sub>(100g)</sub> <b id="item">230</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>baguette <sub>(100g)</sub> <b id="item">287</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>black bread <sub>(100g)</sub> <b id="item">236</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>bread roll <sub>(100g)</sub> <b id="item">279</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>brown bread <sub>(100g)</sub> <b id="item">274</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  butter croissant <sub>(100g)</sub> <b id="item">365</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>butter toast <sub>(100g)</sub> <b id="item">265</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  buttermilk pancakes <sub>(100g)</sub> <b id="item">227</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  chockolate croissant <sub>(100g)</sub> <b id="item">422</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  chockolate donut <sub>(100g)</sub> <b id="item">437</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>ciabatta bread <sub>(100g)</sub> <b id="item">278</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cinamon bun <sub>(100g)</sub> <b id="item">462</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>corn tortilla <sub>(100g)</sub> <b id="item">200</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cornbread <sub>(100g)</sub> <b id="item">243</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>
+                  cracked white bread <sub>(100g)</sub> <b id="item">260</b>cal
+                <input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>croissant <sub>(100g)</sub> <b id="item">516</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>dinner roll<sub>(100g)</sub> <b id="item">273</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>flat bread <sub>(100g)</sub> <b id="item">246</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>focaccia <sub>(100g)</sub> <b id="item">296</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>garlic baguette <sub>(100g)</sub> <b id="item">305</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>hot dog bun <sub>(100g)</sub> <b id="item">293</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pretzel <sub>(100g)</sub> <b id="item">305</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>roll <sub>(100g)</sub> <b id="item">282</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sandwich bread <sub>(100g)</sub> <b id="item">40</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>soda bread <sub>(100g)</sub> <b id="item">290</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>soft pretzels <sub>(100g)</sub> <b id="item">305</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sweet rolls <sub>(100g)</sub> <b id="item">150</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>toast <sub>(100g)</sub> <b id="item">264</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>tortilla <sub>(100g)</sub> <b id="item">218</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chinese noodles <sub>(100g)</sub> <b id="item">351</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>egg noodles <sub>(100g)</sub> <b id="item">384</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>lassagne sheets <sub>(100g)</sub> <b id="item">356</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>pasta <sub>(100g)</sub> <b id="item">365</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>penne oasta <sub>(100g)</sub> <b id="item">359</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>dumplings <sub>(100g)</sub> <b id="item">167</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>ravioli <sub>(100g)</sub> <b id="item">242</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>spaghetti <sub>(100g)</sub> <b id="item">353</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>tagiatelle <sub>(100g)</sub> <b id="item">346</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>tortelini <sub>(100g)</sub> <b id="item">273</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>whole grain noodles <sub>(100g)</sub> <b id="item">342</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>all purpose flour <sub>(100g)</sub> <b id="item">366</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>almond paste <sub>(100g)</sub> <b id="item">462</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>baker's yeast <sub>(100g)</sub> <b id="item">96</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>baking powder <sub>(100g)</sub> <b id="item">100</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>bread flour <sub>(100g)</sub> <b id="item">367</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>brown sugar <sub>(100g)</sub> <b id="item">380</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cake flour <sub>(100g)</sub> <b id="item">362</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>chocolate syrup <sub>(100g)</sub> <b id="item">175</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cocoa powder <sub>(100g)</sub> <b id="item">393</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>corn flour <sub>(100g)</sub> <b id="item">344</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>corn meal <sub>(100g)</sub> <b id="item">344</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>glucose <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>gluten <sub>(100g)</sub> <b id="item">370</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>honey <sub>(100g)</sub> <b id="item">302</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>malt syrup <sub>(100g)</sub> <b id="item">318</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>marzipan <sub>(100g)</sub> <b id="item">498</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>oatmeal <sub>(100g)</sub> <b id="item">128</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>powdered sugar <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>salt <sub>(100g)</sub> <b id="item">0</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>soda <sub>(100g)</sub> <b id="item">0</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>soy flour <sub>(100g)</sub> <b id="item">398</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sugar <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sunflower seed flour <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>vanilla <sub>(100g)</sub> <b id="item">316</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>vanilla sugar <sub>(100g)</sub> <b id="item">399</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>whole grain wheat flour <sub>(100g)</sub> <b id="item">325</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>cereal <sub>(100g)</sub> <b id="item">363</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ingredients_category category_seafood" id="category">
+            <header>
+              <img src="./import/seafood.png" alt="" />
+              <h1>seafood</h1>
+              <button id="ingredients_button">expand</button>
+            </header>
+            <div class="ingredients_category_items items_seafood">
+              <ul>
+                <li>butterfish <sub>(100g)</sub> <b id="item">114</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>carp <sub>(100g)</sub> <b id="item">134</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>crawfish <sub>(100g)</sub> <b id="item">81</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>fish fingers <sub>(100g)</sub> <b id="item">256</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>flounder <sub>(100g)</sub> <b id="item">72</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>halibut <sub>(100g)</sub> <b id="item">95</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>lobster <sub>(100g)</sub> <b id="item">83</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>meckerel <sub>(100g)</sub> <b id="item">182</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>octopus <sub>(100g)</sub> <b id="item">81</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>redfish <sub>(100g)</sub> <b id="item">224</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>salmon <sub>(100g)</sub> <b id="item">180</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>salmon sashimi <sub>(100g)</sub> <b id="item">180</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sardines <sub>(100g)</sub> <b id="item">118</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>scallop <sub>(100g)</sub> <b id="item">73</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>sea brass <sub>(100g)</sub> <b id="item">105</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>shark <sub>(100g)</sub> <b id="item">163</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>shrimp <sub>(100g)</sub> <b id="item">91</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>squid <sub>(100g)</sub> <b id="item">81</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>surimi <sub>(100g)</sub> <b id="item">114</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>swordfish <sub>(100g)</sub> <b id="item">117</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+                <li>tuna <sub>(100g)</sub> <b id="item">226</b>cal<input value="0" min="0" type="number" id="ingredient_mass"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <span id="res1"></span>
+      </section>
+      <section class="recommended">
+        <h1>Calculate your personalized suggested calorie intake for your chosen meal</h1>
+        <div class="sex">
+          <h1>Choose your sex:</h1>
+          <label class="radio_sex">
+            <div class="sex_div"><input class="input_recommended" type="radio" name="sex" id="male"><p>male</p></div>
+            <div class="sex_div"><input class="input_recommended" type="radio" name="sex" id="female"><p>female</p></div>
+          </label>
+        </div>
+        <div class="inputs">
+          <label><p class="p_inputs">Enter your age please!</p><input class="input_recommended your_age" type="number" min="0" value="0" id="your_age"></label>
+          <label><p class="p_inputs">Enter your body mass please!</p><input class="input_recommended your_mass" type="number" min="0" value="0" id="your_mass"></label>
+        </div>
+        <div class="which_meal">
+          <label><input class="input_recommended" type="radio" name="meal" id="breakfast"><p class="which_meal_p">breakfast</p></label>
+          <label><input class="input_recommended" type="radio" name="meal" id="desert"><p class="which_meal_p">desert</p></label>
+          <label><input class="input_recommended" type="radio" name="meal" id="lunch"><p class="which_meal_p">lunch</p></label>
+          <label><input class="input_recommended" type="radio" name="meal" id="evening meal"><p class="which_meal_p">evening meal</p></label>
+          <label><input class="input_recommended" type="radio" name="meal" id="dinner"><p class="which_meal_p">dinner</p></label>
+        </div>
+        <span id="res2"></span>
+      </section>
+    </div>
+
+    <!-- 
+        sources:
+        https://cssgradient.io/
+        https://www.rapidtables.com/convert/color/hex-to-rgb.html
+        https://hype4.academy/tools/glassmorphism-generator
+        https://translate.google.pl/?hl=pl
+        https://www.flaticon.com/
+        https://www.calories.info/
+        https://www.calories.info/calorie-intake-calculator
+     -->
+
+    <!-- JS script -->
+    <script src="./script.js"></script>
+  </body>
+</html>

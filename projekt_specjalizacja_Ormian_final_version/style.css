@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+                    
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+                    
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0bb61a;
+    color: #caeddf;
+}
+
+section{
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients_box{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #005814;
+    border-width: 5px;
+}
+
+.ingredients_category{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+}
+
+img{
+    display: block;
+    height: 2rem;
+    margin-right: 5px;
+}
+
+header > h1{
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+header > button{
+    height: 1.5rem;
+    width: 5rem;
+    border: none;
+    border-radius: 15px;
+    background: rgba( 0, 88, 20, 0.2 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #caeddf;
+}
+
+header > button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-color: #0c280b;
+    border-style: dashed;
+    border-width: 2px;
+    font-size: 1.1rem;
+}
+
+.ingredients_category_items{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+li > input{
+    margin-left: 25px;
+    border: none;
+    background: rgba( 0, 88, 20, 0.2 );
+    border-radius: 15px;
+    height: 1rem;
+    width: 75px;
+    color: #caeddf;
+    text-align: center;
+    font-weight: bold;
+}
+
+li > input:focus{
+    background: #005814;
+    transform: scale(1.1);
+}
+
+#res1{
+    width: 50%;
+}
+
+span::before{
+    content: 'Result: ';
+}
+
+.sex{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #005814;
+    border-width: 5px;
+}
+
+label{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.radio_sex{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sex_div{
+    display: flex;
+    width: 50%;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sex_div > p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input-recommended{
+    margin-bottom: 15px;
+}
+
+.inputs{
+    height: 12%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #005814;
+    border-width: 5px;
+}
+
+.inputs > label{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+
+.p_inputs{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.sex_div > input, label > input{
+    margin-left: 25px;
+    border: none;
+    background: rgba( 0, 88, 20, 0.2 );
+    border-radius: 15px;
+    height: 1.2rem;
+    width: 50px;
+    color: #caeddf;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sex_div > input:focus, label > input:focus{
+    background: #005814;
+    transform: scale(1.1);
+}
+
+.which_meal{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #005814;
+    border-width: 5px;
+}
+
+.which_meal_p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#res2{
+    width: 100%;
+    text-align: center;
+}
+
+#res2::after{
+    content: 'kcal';
+}
